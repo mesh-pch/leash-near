@@ -1,0 +1,14 @@
+{
+  "name": "leash-near-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Testnet deploy script and prompt-injection demo for Leash on NEAR",
+  "scripts": {
+    "deploy": "node deploy.mjs",
+    "demo": "node demo.mjs"
+  },
+  "dependencies": {
+    "near-api-js": "^7.4.0"
+  }
+}

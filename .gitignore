@@ -1,4 +1,6 @@
 /target
+mock-ft/target/
+demo/node_modules/
 *.json.key
 *key*.json
 *.pem
