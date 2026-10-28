@@ -27,7 +27,7 @@ Each agent key has a policy:
 
 Owner methods: `register_agent`, `set_policy`, `set_paused`, `revoke_agent` (also deletes the access key), `approve`, `reject`.
 Views: `get_owner`, `get_policy`, `list_pending`, `spent_in_window`.
-Every decision logs a `EVENT_JSON` line with standard `nep297` / `leash` / `1.0.0` for an audit trail.
+Every decision logs a NEP-297-style `EVENT_JSON` line (standard `leash`, version `1.0.0`) for an audit trail.
 
 ## Try it (do X - see Y)
 Requires Rust (stable) only.
