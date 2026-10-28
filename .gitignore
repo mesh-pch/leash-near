@@ -1,0 +1,8 @@
+/target
+*.json.key
+*key*.json
+*.pem
+.env
+.env.*
+secrets/
+node_modules/
